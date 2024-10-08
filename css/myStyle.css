@@ -1,0 +1,147 @@
+
+
+
+/* hier komt de opmaak voor de bloggs*/
+* {
+  box-sizing: border-box; /* hierdoor is hoogte en breedte niet alleen voor tekst, maar voor hele inhoud, padding en borders */
+}
+
+/* dit zijn de blokken waar de blog in komt */
+.card1234 {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border: 4px solid black;
+  box-shadow: 0 0 30px #131339;
+  font-family: Arial;
+  text-align: left;
+
+}
+
+.img123{
+  height: 100%; /* like this it will respond to the scren, when sceen smaller, the width will respond and the height automaticly too */
+  width: 100%;
+  padding: 4px;
+  border-radius: 8px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgROT{
+  height: 23%; /* like this it will respond to the scren, when sceen smaller, the width will respond and the height automaticly too */
+  width: 23%;
+  padding: 4px;
+  border-radius: 8px;
+  margin: auto;
+    border: 2px solid black;
+}
+
+.imgLEES{
+  height: 40%; /* like this it will respond to the scren, when sceen smaller, the width will respond and the height automaticly too */
+  width: 40%;
+  padding: 4px;
+  border-radius: 8px;
+  border: 2px solid black;
+  -webkit-filter: contrast(90%);filter: contrast(90%);
+}
+
+#p01{
+  font-size:14px;
+}
+
+.logo{
+border-width: 1px;
+border-color: white;
+border-style: solid;
+width: 35px;
+height: 35px;
+border-radius: 50%;
+
+}
+
+.overback{
+  background-color: #131339!important;
+}
+
+.active { /* dit betekend als je op die pagina bent*/
+  text-decoration: underline; /* dan lijn eronder*/
+}
+
+li a:hover { /* dit betekend: wat gebeurt er als je met je muis er op staat maar niet klikt*/
+  text-decoration: underline!important; /* dan lijn eronder*/
+}
+
+.myCover{
+  color: #fff;
+}
+
+.myColor2{
+  color: #000000;
+}
+
+.kleineTekst{
+  font-size: 16px;
+font-weight: 400;
+font-style: italic;
+margin-bottom: 75px;
+text-transform: none;
+font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.icoontje{
+  width: 30px;
+  height: 30px;
+}
+
+.space{
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.mainPic{
+  border-style: solid;
+border-color: white;
+width: 450px;
+height: 140px;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+'Diplomata SC';
+font-family: 'Cinzel Decorative';
+font-size: 20px;
+background-color: rgba(19, 19, 57,.6)!important;
+color: white!important;
+text-decoration: none!important;
+}
+
+.mainPicDefault{
+right:35%!important;
+bottom:220px!important;
+left:35%!important;
+}
+
+.mainPic:hover{
+  background-color: rgba(19, 19, 57)!important;
+
+}
+
+.mybutton {
+  background-color: #131339!important;
+  border: 3px solid white!important;
+  color: white!important;
+  padding: 15px 60px!important;
+  text-align: center!important;
+  text-decoration: none!important;
+  display: inline-block!important;
+  font-size: 16px!important;
+  margin: 4px 2px!important;
+  cursor: pointer!important;
+font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif!important;
+}
+
+
+/* Note: The id of an element should be unique within a page, so the id selector is used to select one unique element!
+*/
+/*   -webkit-filter: invert(5%); /* Safari 6.0 - 9.0
+  filter: invert(5%); */
